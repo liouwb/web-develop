@@ -17,6 +17,9 @@ repositories {
 
 ext {
     springVersion = "4.1.7.RELEASE"
+
+    slf4jVersion = "1.7.9"
+    logbackVersion = "1.1.2"
 }
 
 dependencies {
@@ -26,6 +29,10 @@ dependencies {
     compile "org.springframework:spring-webmvc:$springVersion"
     compile "org.springframework:spring-test:$springVersion"
     compile "org.springframework:spring-aspects:$springVersion"
+
+    compile "org.slf4j:slf4j-api:$slf4jVersion"
+    compile "org.slf4j:jcl-over-slf4j:$slf4jVersion"
+    runtime "ch.qos.logback:logback-classic:$logbackVersion"
 }
 
 dependencies {

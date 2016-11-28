@@ -1,3 +1,8 @@
+#slf4j&logback
+##### 2016-11-28 日志系统
+* slf4j控制台日志输出
+* logback日志文件每日分割
+
 #spring mvc
 ##### 2016-11-28 最小化spring mvc
 * 只有基础配置的spring mvc环境
