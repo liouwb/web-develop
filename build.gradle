@@ -4,10 +4,28 @@ version '1.0'
 apply plugin: 'java'
 apply plugin: 'war'
 
-sourceCompatibility = 1.5
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+war {
+    archiveName = "web-develop.war"
+}
 
 repositories {
     mavenCentral()
+}
+
+ext {
+    springVersion = "4.1.7.RELEASE"
+}
+
+dependencies {
+    compile "org.springframework:spring-context:$springVersion"
+    compile "org.springframework:spring-context-support:$springVersion"
+    compile "org.springframework:spring-jdbc:$springVersion"
+    compile "org.springframework:spring-webmvc:$springVersion"
+    compile "org.springframework:spring-test:$springVersion"
+    compile "org.springframework:spring-aspects:$springVersion"
 }
 
 dependencies {
