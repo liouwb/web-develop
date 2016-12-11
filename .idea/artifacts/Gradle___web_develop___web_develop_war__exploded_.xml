@@ -1,10 +1,15 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Gradle : web-develop : web-develop.war (exploded)">
-    <output-path>$PROJECT_DIR$/out/artifacts/web-develop/exploded/web-develop.war</output-path>
+    <output-path>$PROJECT_DIR$/build/libs/exploded/web-develop.war</output-path>
     <properties id="gradle-properties">
-      <options external-project-path="$PROJECT_DIR$" />
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
     </properties>
     <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/web-develop.war/META-INF/MANIFEST.MF" />
+      </element>
       <element id="javaee-facet-resources" facet="web-develop_main/web/Web Gradle : web-develop.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -32,9 +37,6 @@
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.2" />
         </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/web-develop/exploded/web-develop.war/META-INF/MANIFEST.MF" />
       </element>
     </root>
   </artifact>
