@@ -6,15 +6,14 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by colanlove on 2016/11/28.
  */
-@Controller
+@RestController
 @Api(value = "测试系统", description = "用于测试swagger ui是否可用")
 public class TestController {
 
@@ -34,7 +33,6 @@ public class TestController {
             @ApiImplicitParam(name = "name", required = true, value = "你的名字", dataType = "string", paramType = "query", defaultValue = "Jack"),
             @ApiImplicitParam(name = "age", required = true, value = "你的年龄", dataType = "string", paramType = "query", defaultValue = "25"),
     })
-    @ResponseBody
     public String test(String name, int age) {
 
         testService.method(name, age);

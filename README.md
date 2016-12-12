@@ -2,9 +2,9 @@
 ###### 2016-12-12
 * 系统环境 
     * elementary os 0.4
+    * idea 2016.1.3
 * 开发环境
     * jdk 1.8
-    * idea 2016.1.3
     * gradle 2.9
     * tomcat 8
 * 内容整合
