@@ -12,6 +12,11 @@
     * slf4j
     * logback
     * swagger-ui
+    * mybatis
+    
+##### 2016-12-12 mybatis
+* 简单的mybatis查询
+* 数据库运行文件classpath:sql/test.sql
 
 ##### 2016-12-12 swagger-ui api
 * 简单的api文档及测试页面

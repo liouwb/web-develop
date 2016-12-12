@@ -35,7 +35,7 @@ public class TestController {
     })
     public String test(String name, int age) {
 
-        testService.method(name, age);
+        testService.method();
 
         return "Hello, " + name + ", age is " + age;
     }

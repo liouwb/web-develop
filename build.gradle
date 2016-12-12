@@ -22,6 +22,11 @@ ext {
     springfoxVersion = "2.2.2"
     servletVersion = "3.1.0"
 
+    mysqlVersion = "5.1.21"
+    druidVersion = "1.0.15"
+    mybatisVersion = "3.3.0"
+    mybatisSpringVersion = "1.2.3"
+
     slf4jVersion = "1.7.9"
     logbackVersion = "1.1.2"
 
@@ -43,6 +48,11 @@ dependencies {
     compile "io.springfox:springfox-swagger2:$springfoxVersion"
     compile "io.springfox:springfox-swagger-ui:$springfoxVersion"
     providedCompile "javax.servlet:javax.servlet-api:$servletVersion"
+
+    compile "mysql:mysql-connector-java:$mysqlVersion"
+    compile "com.alibaba:druid:$druidVersion"
+    compile "org.mybatis:mybatis:$mybatisVersion"
+    compile "org.mybatis:mybatis-spring:$mybatisSpringVersion"
 
     compile "org.slf4j:slf4j-api:$slf4jVersion"
     compile "org.slf4j:jcl-over-slf4j:$slf4jVersion"

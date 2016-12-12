@@ -17,7 +17,7 @@
                         http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 
     <!-- 设置使用注解的类所在的jar包 -->
-    <context:component-scan base-package="com.develop.test.*.controller"/>
+    <context:component-scan base-package="com.develop.*.*.controller"/>
 
     <mvc:annotation-driven/>
 

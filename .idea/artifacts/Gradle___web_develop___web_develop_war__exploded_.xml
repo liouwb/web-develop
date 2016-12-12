@@ -28,6 +28,10 @@
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.6.0" />
           <element id="library" level="project" name="Gradle: io.springfox:springfox-swagger2:2.2.2" />
           <element id="library" level="project" name="Gradle: io.springfox:springfox-swagger-ui:2.2.2" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.21" />
+          <element id="library" level="project" name="Gradle: com.alibaba:druid:1.0.15" />
+          <element id="library" level="project" name="Gradle: org.mybatis:mybatis:3.3.0" />
+          <element id="library" level="project" name="Gradle: org.mybatis:mybatis-spring:1.2.3" />
           <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.9" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.1.7.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.1.7.RELEASE" />
