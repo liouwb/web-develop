@@ -5,5 +5,5 @@ package com.develop.test.app.service;
  */
 public interface TestService {
 
-    void method();
+    void method(String name, int age);
 }

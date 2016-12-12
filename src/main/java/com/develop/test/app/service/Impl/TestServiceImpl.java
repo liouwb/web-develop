@@ -15,7 +15,8 @@ public class TestServiceImpl implements TestService {
     private Logger logger = LoggerFactory.getLogger(TestServiceImpl.class);
 
     @Override
-    public void method() {
-        logger.info("hello, world");
+    public void method(String name, int age) {
+
+        logger.info("Hello, " + name + ", age is " + age);
     }
 }
